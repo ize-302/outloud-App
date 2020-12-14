@@ -19,20 +19,20 @@ const styles = () => {
 
     tabs: {
       backgroundColor: colors.cream,
-      borderTopColor: colors.cream,
+      borderTopColor: "transparent",
     },
 
     tabStyle: {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      paddingTop: 7,
+      paddingBottom: getHeight(5),
     },
 
     tabLabel: {
       fontFamily: "SF_Medium",
       fontSize: getHeight(11),
-      marginTop: getHeight(6),
+      marginTop: getHeight(2),
       letterSpacing: 0.6,
     },
   });
