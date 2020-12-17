@@ -10,9 +10,7 @@ const Search = ({ navigation }) => {
 
   return (
     <SafeAreaView style={globalStyles.safeArea}>
-      <View style={[globalStyles.scrollView]}>
-        <Text>Search</Text>
-      </View>
+      <View style={[globalStyles.scrollView]}>{/* <Text>Search</Text> */}</View>
     </SafeAreaView>
   );
 };
