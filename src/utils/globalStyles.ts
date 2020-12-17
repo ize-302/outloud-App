@@ -35,6 +35,11 @@ const styles = () => {
       marginTop: getHeight(2),
       letterSpacing: 0.6,
     },
+
+    pageHeading: {
+      fontFamily: "Recoleta",
+      fontSize: getWidth(28),
+    },
   });
 };
 

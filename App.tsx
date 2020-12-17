@@ -8,6 +8,7 @@ import Navigation from "./src";
 const customFonts = {
   Recoleta: require("./assets/fonts/Recoleta-Bold.ttf"),
   SF_Regular: require("./assets/fonts/San-Francisco-Pro/SF-Pro-Display-Regular.otf"),
+  SF_RegularItalic: require("./assets/fonts/San-Francisco-Pro/SF-Pro-Display-RegularItalic.otf"),
   SF_Medium: require("./assets/fonts/San-Francisco-Pro/SF-Pro-Display-Medium.otf"),
   SF_Bold: require("./assets/fonts/San-Francisco-Pro/SF-Pro-Display-Bold.otf"),
 };

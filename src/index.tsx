@@ -9,8 +9,10 @@ import CarouselsScreen from "./screens/AppIntro/Carousels";
 import FeedScreen from "./screens/Feed";
 import SearchScreen from "./screens/Search";
 import NotesScreen from "./screens/Notes";
+import WriteNoteScreen from "./screens/WriteNote";
 import NotificationsScreen from "./screens/Notifications";
 import ProfileScreen from "./screens/Profile";
+import ReadNoteScreen from "./screens/ReadNote";
 import getStyles from "./utils/globalStyles";
 import { colors, getHeight, getWidth } from "./utils";
 import Icon from "./components/Icon";
@@ -135,9 +137,11 @@ const Navigation = () => {
     // <SafeAreaView style={styles.safeArea}>
     <NavigationContainer fallback={<View />}>
       <Stack.Navigator initialRouteName="AppIntro" headerMode="none">
+        <Stack.Screen name="ReadNote" component={ReadNoteScreen} />
         <Stack.Screen name="App" component={AppNavigation} />
         <Stack.Screen name="AppIntro" component={AppIntroScreen} />
         <Stack.Screen name="CarouselsIntro" component={CarouselsScreen} />
+        <Stack.Screen name="WriteNote" component={WriteNoteScreen} />
       </Stack.Navigator>
     </NavigationContainer>
     // </SafeAreaView>
